@@ -1,0 +1,94 @@
+body {
+    font-family: Century Gothic;
+}
+/* ====== BEGIN NAVBAR ====== */
+.navbar {
+    background-color: #3e3f3f
+}
+.navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+.navbar a:hover {
+    color: #F3999E;
+}
+
+#dashLink {
+    color: #F3999E;
+}
+
+.dropdownButton a {
+    background-color: #727B83;
+}
+/* ====== END NAVBAR ====== */
+/* ====== BEGIN STATUS BAR ====== */
+#statusBarDash {
+    height: 60px;
+    background-color: #c4caca;
+}
+h2 {
+    margin: 0;
+    color: #FFF;
+}
+/* ====== END STATUS BAR ====== */
+/* ====== BEGIN BUTTONS BAR ====== */
+.buttonsBar {
+    height: 60px;
+    background-color: #c4caca;
+    margin-bottom: 40px;
+}
+
+.buttonsBar .btn {
+    width: 23%;
+    margin-right: 30px;
+    border-radius: 0;
+}
+/* ====== END BUTTONS BAR ====== */
+/* ====== BEGIN SECTION TABLE ====== */
+.sectionTable {
+    padding-top: 35px;
+}
+
+table {
+    border: 1px solid #b2b2b2;
+}
+/* ====== END SECTION TABLE ====== */
+/* ====== BEGIN BLOCK SECTION ====== */
+.sectionBlocks {
+    font-size: 2em;
+    color: #FFF;
+}
+
+.sectionBlocks button {
+    color: #FFF;
+}
+
+.postsBlock, .categoriesBlock, .usersBlock {
+    padding: 16.5px;
+    margin-bottom: 25px;
+}
+
+.postsBlock {
+    background-color: #2182F9;
+}
+
+.categoriesBlock {
+    background-color: #30A54A;
+}
+
+.usersBlock {
+    background-color: #FEBF2F;
+}
+/* ====== END BLOCK SECTION ====== */
+/* ====== BEGIN FOOTER BAR ====== */
+.footerBar {
+    height: 140px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.sectionBlocks button {
+    border: 1px solid #FFF;
+}
+/* ====== END FOOTER BAR ====== */

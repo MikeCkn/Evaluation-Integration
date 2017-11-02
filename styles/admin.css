@@ -1,0 +1,29 @@
+/* ====== BEGIN STATUS BAR ====== */
+#statusBarAdmin {
+    height: 60px;
+    background-color: #F3999E;
+    margin-bottom: 50px;
+}
+h2 {
+    margin: 0;
+    color: #FFF;
+}
+/* ====== END STATUS BAR ====== */
+/* ====== BEGIN FORM ====== */
+.formAdmin {
+    width: 30%;
+    padding-bottom: 80px;
+}
+
+.buttonLogin {
+    width: 100%;
+}
+
+.buttonLogin a {
+    color: #FFF;
+}
+
+.cardLogin, .buttonPassword {
+    margin-bottom: 30px;
+}
+/* ====== END FORM ====== */

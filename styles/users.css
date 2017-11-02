@@ -1,0 +1,41 @@
+.card-header {
+    border: 1px solid #b2b2b2;
+}
+/* ====== BEGIN STATUS BAR ====== */
+#statusBarUsers {
+    height: 60px;
+    background-color: #FEBF2F;
+}
+h2 {
+    margin: 0;
+    color: #FFF;
+}
+/* ====== END STATUS BAR ====== */
+/* ====== BEGIN SEARCH BAR ====== */
+.searchBar {
+    height: 60px;
+    background-color: #c4caca;
+    margin-bottom: 70px;
+}
+
+.searchBar .btn {
+    width: 23%;
+    margin-right: 30px;
+    border-radius: 0;
+}
+/* ====== END SEARCH BAR ====== */
+/* ====== BEGIN PAGINATION  ====== */
+.prevButton {
+    color: #3E3F3F;
+}
+
+.numberPageButton {
+    color: #F3999E;
+}
+/* ====== END PAGINATION  ====== */
+
+/* ====== END PAGINATION  ====== */
+.sectionTable {
+    padding-bottom: 70px;
+}
+/* ====== END PAGINATION  ====== */

@@ -1,0 +1,31 @@
+/* ====== BEGIN STATUS BAR ====== */
+#statusBarCategories {
+    height: 60px;
+    background-color: #30A54A;
+}
+h2 {
+    margin: 0;
+    color: #FFF;
+}
+/* ====== END STATUS BAR ====== */
+/* ====== BEGIN SEARCH BAR ====== */
+.searchBar {
+    height: 60px;
+    background-color: #c4caca;
+}
+
+.searchBar .btn {
+    width: 23%;
+    margin-right: 30px;
+    border-radius: 0;
+}
+/* ====== END SEARCH BAR ====== */
+/* ====== BEGIN PAGINATION  ====== */
+.prevButton {
+    color: #3E3F3F;
+}
+
+.numberPageButton {
+    color: #F3999E;
+}
+/* ====== END PAGINATION  ====== */

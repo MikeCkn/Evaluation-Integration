@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Third exercise</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="shortcut icon" href="./assets/3.png">
+    </head>
+    <body>
+        <!-- BEGIN NAVBAR -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="col-md-1">
+                    <a href="#"><li>
+                        <img src="./assets/blogLogo.png" width="50px" height="50px" alt="">
+                    </li></a>
+                </div>
+                <div class="col-md-1">
+                    <a href="./dashboard.html"><li>
+                        Dashboard
+                    </li></a>
+                </div>
+                <div class="col-md-1">
+                    <a href="./posts.html"><li>
+                        All Posts
+                    </li></a>
+                </div>
+                <div class="col-md-1">
+                    <a href="./users.html"><li>
+                        Users
+                    </li></a>
+                </div>
+                <div class="col-md-5">
+                    <a id="dashLink" href="#"><li>
+                        Categories
+                    </li></a>
+                </div>
+                <div class="dropdown col-md-2 dropdownButton">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Welcome John !
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="./profile.html">Profile</a>
+                        <a class="dropdown-item" href="./settings.html">Settings</a>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <a href="./admin.html"><li>
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        Logout
+                    </li></a>
+                </div>
+            </nav>
+        </div>
+        <!-- END NAVBAR -->
+        <!-- BEGIN STATUS BAR -->
+        <div id="statusBarCategories" class="d-flex align-items-center">
+            <div class="container-fluid">
+                <h2><i class="fa fa-folder-open-o" aria-hidden="true"></i></i> Categories</h2>
+            </div>
+        </div>
+        <!-- END STATUS BAR -->
+        <!-- BEGIN SEARCH BAR -->
+        <div class="searchBar d-flex align-items-center justify-content-center container-fluid">
+            <form class="form-inline">
+                <input class="form-control mr-sm-4" type="search" placeholder="Search categories...">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        <!-- END SEARCH BAR -->
+        <!-- BEGIN SECTION TABLE -->
+        <div class="sectionTable container">
+            <table class="table table-striped">
+                <thead>
+                    <div class="card-header">
+                        <h3>Latest categories</h3>
+                    </div>                    
+                    <tr class="table-danger">
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Date Posted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Web Development</td>
+                        <td>July 11, 2017</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Web Development</td>
+                        <td>July 12, 2017</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Tech Gadgets</td>
+                        <td>July 12, 2017</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Health & Wellness</td>
+                        <td>July 13, 2017</td>
+                    </tr>                    
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Security</td>
+                        <td>July 14, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li  class="page-item"><a class="prevButton page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="numberPageButton page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="numberPageButton page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="numberPageButton page-link" href="#">3</a></li>
+                    <li  class="page-item"><a class="prevButton page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- END SECTION TABLE -->
+        <!-- BEGIN FOOTER BAR -->
+        <div class="footerBar d-flex align-items-center justify-content-center">
+            <p>Copyright © 2017, Blogen</p>
+        </div>
+        <!-- END FOOTER BAR -->
+        <script src="https://use.fontawesome.com/7917ca11d2.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
